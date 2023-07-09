@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NITW|Hospital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-item" aria-current="page" href="home.html" target="_self">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-item" href="About.html" target="_self">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-item" href="Gallery.html" target="_self">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-item" href="Contact.php">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-item" href="Appointment.html" target="_self">BOOK APPIONTMENT</a>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- slides start -->
+      <div id="slideshow-container">
+        <img src="11.jpg" id="slideshow-image">
+      </div>  
+      <script>
+        const images = [
+  "2.jpg",
+  "3.jpg",
+  "11.jpg"];
+
+  let currentImageIndex = 0;
+
+function updateImage() {
+  document.getElementById("slideshow-image").src = images[currentImageIndex];
+  currentImageIndex++;
+  if (currentImageIndex >= images.length) {
+    currentImageIndex = 0;
+  }
+}
+setInterval(updateImage, 5000);
+      </script>    
+      <!-- slides-end -->
+		<div class="container content-md welcomeSection">
+      <div class="row section1">
+      <div class="col-md-6" style="margin-bottom: 40px;" style="border:2px solid black; background: green;">
+        <h2 class="title-v2">WELCOME TO <span style="color: #72c02c;"> UNITY </span></h2>
+        <p style="text-align: justify; font-size: 14px;">A state-of-the art modern facility in the heart of the Gujarat state, it is spread over 10 acres and has a built-up area of over 440000 square feet. Currently the hospital has 300+ beds with a capacity to expand to 400 beds.</p>
+        <p style="text-align: justify; font-size: 14px;">Unity Hospital, Ahmedabad is a tertiary care flagship unit of the Unity Hospitals Group.The Hospital focuses on centres of excellence like Cardiac Sciences, Neuro Sciences, Orthopaedics including Knee Replacement, Hip Replacement and Spine Surgery, Cancer, Emergency Medicine and Solid Organ Transplants besides the complete range of more than 35 allied medical disciplines under the same roof.</p> 
+        <p style="text-align: justify; font-size: 14px;"> Unity Hospital, Ahmedabad provides holistic healthcare that includes prevention, treatment, rehabilitation and health education for patients, their families and clients by touching their lives.</p> <br>
+      </div>
+      <div class="col-md-6 overflow-h">
+        <img class="img" style="border-radius: 50px; margin-left: 30px" src="1.jpg" height="300" alt="">
+      </div>
+      </div>
+      </div>
+      <!-- speciality -->
+      <h1 style="text-align: center; color: black;">OUR SPECILITIES</h1>
+      <div style="text-align: center;">
+        <p>Unity is a multi/super speciality hospital with state-of-the-art facilities & treatments at an affordable cost, encompassing wide spectrum of accurate diagnostics and elegant therapeutics created on the philosophical 
+          edifice of patient and ethical centricity ensuring humanistic dispensation.</p>
+      </div>
+      <!-- end speciality -->
+
+
+      <div class="row" style="margin-bottom: 40px; margin-top: 8%;">
+        <div class="col-md-4">
+          <div class="content-boxes-v5" style="margin-bottom: 30px;">
+            <i class="icon-medical-005" style="border-radius: 50%;"></i>
+            <div class="overflow-h">
+              <h3 class="no-top-space">24/7 Ambulance support</h3>
+              <p>24 Hours Ambulance Service, Emergency Ambulance Service Providers in India.</p>
+            </div>
+          </div>
+          <div class="content-boxes-v5" style="margin-bottom: 30px;">
+            <i style="border-radius: 50%;" class="icon-medical-054"></i>
+            <div class="overflow-h">
+              <h3 class="no-top-space">LASIK Vision Correction Treatment </h3>
+              <p>We have LASIK Vision treatment which is the latest in the world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content-boxes-v5" style="margin-bottom: 30px;">
+            <i style="border-radius: 50%;" class="icon-medical-042"></i>
+            <div class="overflow-h">
+              <h3 class="no-top-space">Dedicated Stroke Centre</h3>
+              <p>We specially have dedicated stroke centre which is very handy in critical situations.</p>
+            </div>
+          </div>
+          <div class="content-boxes-v5" style="margin-bottom: 30px;">
+            <i style="border-radius: 50%;" class="icon-medical-019"></i>
+            <div class="overflow-h">
+              <h3 class="no-top-space">17 State-of-the-art Operation Theatres</h3>
+              <p>These Operation Theatres are full of latest technologies and equipments.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content-boxes-v5" style="margin-bottom: 30px;">
+            <i style="border-radius: 50%;" class="icon-medical-069"></i>
+            <div class="overflow-h">
+              <h3 class="no-top-space">Joint Replacement Centre</h3>
+              <p>We have have dedicated Joint Replacement Centre.</p>
+            </div>
+          </div>
+          <div class="content-boxes-v5" style="margin-bottom: 30px;">
+            <i style="border-radius: 50%;" class="icon-medical-061"></i>
+            <div class="overflow-h">
+              <h3 class="no-top-space">2 Endoscopy Suites</h3>
+              <p>2 Endoscopy Suites are with latest equipments and very faster as compared to others.</p>
+            </div>
+          </div>
+        </div>
+      </div><!--/end row-->
+      </div><!--/end container-->
+      <!-- End Content Part -->
+
+
+          <!-- prices start -->
+          <h1 style="text-align: center;">Health Pakages</h1>
+          <hr style="width: 5%; color: #72c02c; border: solid 2px green; margin: auto;">
+         <div class="services">
+          <div class="card">
+            <h3>UNITY PLATINUM WELLNESS</h3>
+           <p>Basic Wellness Plan
+            Lung Function Tests
+            USG Abdomen
+            Thyroid All Tests
+            Lung Efficiency Tests</p>
+            <p>For ₹8000/-</p>
+          </div>
+          <div class="card">
+           <h3>UNITY BASIC WELLNESS</h3>
+           <p>CBC
+            Blood Group & RH
+            Urine (Routine & Micro)</p>
+            <p>For ₹1500/-</p>
+          </div>
+          <div class="card">
+            <h3>UNITY GOLD WELLNESS</h3>
+           <p>CBC
+            Blood Group & RH
+            Urine (Routine & Micro)
+            SGPT</p>
+            <p>For ₹3000/-</p>
+          </div>
+          <div class="card">
+            <h3>UNITY HAPPY HEART</h3>
+           <p>Lipid Profile
+            ECG
+            Chest X-RAY
+            FBS
+            Basic Wellness Included</p>
+            <p>For ₹4500/-</p>
+          </div>
+         </div>
+         <!-- prices end -->
+
+    <!-- end part start -->
+    <div class="unity">
+      <div class="same">
+        <img src="unity_white.jpg" alt="">
+        At Unity Hospital, we are convinced that 'quality' and 'lowest cost' are not mutually <br>exclusive when it comes to healthcare delivery.
+Our mission is to deliver high quality,<br> affordable healthcare services to the broader population in India.
+      </div>
+      <div class="same"> 
+        <h3>Contact us</h3>
+        Unity Hospital
+Hanamkonda, IN
+Phone: 886 666 00555<br>
+Email: unityhospital@gmail.com
+         </div>
+         </div>
+    <div class="last" style="background-color: rgb(54, 48, 48); color: white ; margin-left: 0%;">
+      <div >2023 © All Rights Reserved.
+        <a style="color: green;" href="">Privacy policy</a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

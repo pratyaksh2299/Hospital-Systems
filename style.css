@@ -1,0 +1,82 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* background-image: url('pexels-karolina-grabowska-4386466.jpg');
+    height: 100vh; */
+    /* background-size: cover;
+    background-repeat: repeat-y; */
+}
+.navbar-nav .nav-item  {
+    padding: 10px;
+    text-decoration: none;
+  }
+/* slider */
+#slideshow-imag
+{
+    border-radius: 10px;
+    
+}
+.container
+{
+    margin-top: 5%;
+    
+    
+}
+.img
+{
+    margin-top: 3%;
+}
+.navbar
+{
+    position: sticky;
+}
+.services
+{
+    background-color: rgb(231, 234, 237);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
+}
+.card
+{
+    height: auto;
+    width: 300px;
+    background-color: rgb(227, 227, 227);
+    padding: 3%;
+    
+}
+.card:hover
+{
+    outline:solid 2px rgb(89, 59, 48);
+    border-color: brown;
+} 
+.unity
+{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
+    margin-top: 5%;
+} 
+.same
+{
+  
+    color: white;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+

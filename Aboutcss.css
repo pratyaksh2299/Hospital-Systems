@@ -1,0 +1,16 @@
+.headline-center
+{
+    position: relative;
+    margin-top: 5%;
+}
+.container.content {
+    margin-top: -150px;
+  }
+  .container.content > div:first-child {
+    padding-top: 100px;
+  }
+  body
+  {
+    background-image: url('https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=600');
+  }
+    
